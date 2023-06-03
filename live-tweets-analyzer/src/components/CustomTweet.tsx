@@ -1,27 +1,40 @@
 import React from 'react';
 import FakeTweet from 'fake-tweet';
-import 'react-fake-tweet/dist/index.css';
 import './CustomTweet.css';
 import {Container} from "@mui/material";
-import { TeamLogoUrlMapping } from '../utils/utils';
+import {Team, TeamLogoUrlMapping} from '../utils/utils';
+import {strptime} from "../utils/strptime";
 
-export const CustomTweet = () => {
+export interface CustomTweetProps {
+    team: Team,
+    user: {
+        nickname: string,
+        name: string,
+    }
+    text: string,
+    date: Date,
+    retweets: number,
+    quotedTweets: number,
+    likes: number
+}
+export const CustomTweet = (props: CustomTweetProps) => {
     const config = {
         user: {
-            nickname: "thada",
-            name: "Tanmaya Hada",
-            avatar: TeamLogoUrlMapping.get('Lakers') || '',
+            nickname: props.user.nickname,
+            name: props.user.name,
+            avatar: TeamLogoUrlMapping.get(props.team) || '',
             verified: false,
             locked: false,
         },
         display: "default",
-        text: "I'm a Laker's simp.",
+        text: props.text,
         image: "",
-        date: "3:32 PM · Feb 14, 1997",
+        // date: "3:32 PM · Feb 14, 1997",
+        date: strptime('%I:%M %p · %b %e, %Y', props.date),
         app: "Twitter for iPhone",
-        retweets: 32000,
-        quotedTweets: 100,
-        likes: 12700
+        retweets: props.retweets,
+        quotedTweets: props.quotedTweets,
+        likes: props.likes
     };
     return (
         <Container maxWidth={'md'}>

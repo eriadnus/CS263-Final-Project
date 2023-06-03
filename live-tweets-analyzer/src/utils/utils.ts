@@ -1,4 +1,4 @@
-
+import {HexColor} from "../components/HorizontalBar";
 
 
 export type Team =
@@ -64,4 +64,37 @@ export const TeamLogoUrlMapping = new Map<Team, string>([
     ['Trailblazers', 'https://brandlogos.net/wp-content/uploads/2017/05/portland-trail-blazers-logo.png'],
     ['Warriors', 'https://brandlogos.net/wp-content/uploads/2012/12/golden-state-warriors-logo-vector.png'],
     ['Wizards', 'https://brandlogos.net/wp-content/uploads/2021/10/washington-wizards-logo-512x512.png'],
-])
+]);
+
+export const TeamHexColorMapping = new Map<Team, HexColor>([
+    ['76ers', '#006bb6'],
+    ['Bucks', '#00471b'],
+    ['Bulls', '#ce1141'],
+    ['Cavaliers', '#6f263d'],
+    ['Celtics', '#008348'],
+    ['Clippers', '#c8102e'],
+    ['Grizzlies', '#5d76a9'],
+    ['Hawks', '#e03a3e'],
+    ['Heat', '#98002e'],
+    ['Hornets', '#00788c'],
+    ['Jazz', '#002b5c'],
+    ['Kings', '#5a2b81'],
+    ['Knicks', '#f58426'],
+    ['Lakers', '#552583'],
+    ['Magic', '#c4ced4'],
+    ['Mavericks', '#0053bc'],
+    ['Nets', '#000000'],
+    ['Nuggets', '#fec524'],
+    ['Pacers', '#fdbb30'],
+    ['Pelicans', '#b4975a'],
+    ['Pistons', '#c8102e'],
+    ['Raptors', '#000000'],
+    ['Rockets', '#ce1141'],
+    ['Spurs', '#c4ced4'],
+    ['Suns', '#e56020'],
+    ['Thunder', '#ef3b24'],
+    ['Timberwolves', '#236192'],
+    ['Trailblazers', '#e03a3e'],
+    ['Warriors', '#fdb927'],
+    ['Wizards', '#002b5c'],
+]);

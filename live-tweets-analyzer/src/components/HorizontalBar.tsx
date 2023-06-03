@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, LinearProgress} from '@mui/material';
 
-type HexColor = `#${string}`;
+export type HexColor = `#${string}`;
 
 interface HorizontalBarProps {
     leftTeamWinningProbability: number,
@@ -9,6 +9,7 @@ interface HorizontalBarProps {
     rightTeamColor: HexColor
 }
 export const HorizontalBar = (props: HorizontalBarProps) => {
+    console.log(props.leftTeamWinningProbability, props.leftTeamColor, props.rightTeamColor)
     return (
         <Container maxWidth={'sm'}>
             <LinearProgress
