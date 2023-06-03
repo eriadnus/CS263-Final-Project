@@ -1,11 +1,22 @@
 from streamer import Streamer
+from streamer import Processor
+
+"""
+Streamer()
+Processor(streamer)
+processor.begin_processing()
+processor.get_results
+"""
 
 CSV_PATH = "../data/TweetsNBA.csv"
 streamer = Streamer(CSV_PATH)
 
-for i in range(1,10):
-    streamer.load_next_tweet()
-print(streamer.get_and_refresh_tweet_buffer())
+# for i in range(1,10):
+#     streamer.load_next_tweet()
+# print(streamer.get_and_refresh_tweet_buffer())
+
+processor = Processor(streamer=streamer)
+processor.begin_processing()
 
 
 EXAMPLE_PROMPT = """
