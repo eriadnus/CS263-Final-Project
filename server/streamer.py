@@ -1,31 +1,7 @@
 import pandas as pd
 import time
 from chatgpt import ChatGPT
-
-class Tweet:
-    def __init__(self, text):
-        self.text = text
-
-class TweetSentimentResult:
-    def __init__(self, tweet: Tweet, team: str, sentiment_score: int):
-        assert team in ["Warriors", "Cavliers"]
-        assert sentiment_score <= 5 and sentiment_score >= -5
-
-        self.tweet = tweet
-        self.team = team
-        self.sentiment_score = sentiment_score
-
-    def create_dictionary_representation(self):
-        return {
-            "text": self.tweet.text,
-            "team": self.team,
-            "sentiment_score": self.sentiment_score
-        }
-    
-    @staticmethod
-    def from_dict(dict):
-        
-        pass
+from utils import save_to_json, convert_to_unix_timestamp
 
 class Streamer: 
     """
@@ -36,13 +12,13 @@ class Streamer:
         self.tweets= []
         
     def get_next_tweet(self):
-        next_tweet_text = self.df.iloc[self.curr_index]['text']
-        next_tweet = Tweet(next_tweet_text)
-        self.tweets.append(next_tweet)
+        tweet_row = self.df.iloc[self.curr_index]
+
+        tweet = create_tweet(tweet_row)
 
         self.curr_index += 1
 
-        return next_tweet
+        return tweet
 
     def get_and_refresh_tweet_buffer(self):
         co = self.tweets.copy()
@@ -69,10 +45,18 @@ ONLY output your analysis in the following format, without any additional tokens
 
 Here is the text to analyze:
 """
-def construct_prompt(tweet: Tweet):
-    return EXAMPLE_PROMPT + tweet.text
+def construct_prompt(tweet):
+    return EXAMPLE_PROMPT + tweet['text']
 
-
+def create_tweet(df_row):
+    tweet = {
+        "text": df_row['text'],
+        "date": df_row['created_at'],
+        "unixtimestamp": convert_to_unix_timestamp(df_row['created_at']),
+        "retweets": int(df_row['retweet_count']),
+        "likes": int(df_row['favorite_count'])
+    }
+    return tweet
 
 class Processor:
     def __init__(self, streamer: Streamer):
@@ -81,13 +65,21 @@ class Processor:
         self.processed_tweets = []
 
     def begin_processing(self):
-        for i in range(1,2):
+        for i in range(1,10):
             time.sleep(0.2)
-            next_tweet = self.streamer.get_next_tweet()
+            tweet = self.streamer.get_next_tweet()
 
             # Get the sentiment result of the tweet
-            result = self.chatgpt.prompt_gpt(construct_prompt(next_tweet))
-            result_obj = TweetSentimentResult.from_dict({"test": "hi"})
+            result = self.chatgpt.prompt_gpt(construct_prompt(tweet))
+
+            for key in tweet:
+                result[key] = tweet[key]
+
+            self.processed_tweets.append(result)
+
+            save_to_json(self.processed_tweets, "output.json")
+
+
             
 
  

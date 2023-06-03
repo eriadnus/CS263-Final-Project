@@ -1,5 +1,6 @@
 from flask import Flask, request
 import json
+from utils import read_json_file
 
 app = Flask(__name__)
 
@@ -8,7 +9,11 @@ def fetch_sentiment_analysis(not_before: int) -> dict:
     """
     Given a not_before unix timestamp, fetch all sentiment analyzed tweets *after* the time.
     """
-    pass
+    tweets = read_json_file("output.json")
+    if not_before:
+        tweets = [tweet for tweet in tweets if tweet['unixtimestamp']  > not_before]
+
+    return tweets
 
 
 # Route takes the form /analysis?notBefore=1543409290654

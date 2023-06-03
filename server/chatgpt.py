@@ -25,5 +25,4 @@ class ChatGPT:
         """
         print("Running following prompt")
         print(prompt)
-
-        pass
+        return EXAMPLE_RESPONSE.copy()
