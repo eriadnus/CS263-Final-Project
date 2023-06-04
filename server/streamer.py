@@ -14,7 +14,7 @@ class Streamer:
     def get_next_tweet(self):
         tweet_row = self.df.iloc[self.curr_index]
 
-        tweet = create_tweet(tweet_row)
+        tweet = create_tweet(tweet_row, self.curr_index)
 
         self.curr_index += 1
 
@@ -48,15 +48,36 @@ Here is the text to analyze:
 def construct_prompt(tweet):
     return EXAMPLE_PROMPT + tweet['text']
 
-def create_tweet(df_row):
+def create_tweet(df_row,i):
     tweet = {
         "text": df_row['text'],
         "date": df_row['created_at'],
         "unixtimestamp": convert_to_unix_timestamp(df_row['created_at']),
         "retweets": int(df_row['retweet_count']),
-        "likes": int(df_row['favorite_count'])
+        "likes": int(df_row['favorite_count']),
+        "user": {
+            "name": df_row['name'],
+            "nickname": df_row['screen_name']
+        },
+        "tweet_index":int(i) 
     }
     return tweet
+
+def try_to_fix(response):
+        assert response != None
+
+        for key in ["team", "sentiment_score"]:
+            assert key in response
+        assert response['team'] in ["Warriors", "Cavaliers"]
+
+        if "entities_to_sentiment" not in response:
+            response["entities_to_sentiment"] = {}
+
+        entity_dict = response["entities_to_sentiment"]
+        for key in entity_dict:
+            value = int(entity_dict[key])
+            assert (value >=-5 or value <=5)
+            entity_dict[key] = value
 
 class Processor:
 
@@ -73,11 +94,14 @@ class Processor:
 
             # Get the sentiment result of the tweet
             result = self.chatgpt.prompt_gpt(construct_prompt(tweet))
-            if not result:
-                # Failed to parse
+            # try_to_fix(result)
+            try:
+                try_to_fix(result)
+            except:
+                # Some error, either gpt returned None or we have
+                # missing keys
+                print("Failed to validate tweet no", i)
                 continue
-
-            # TODO: Addional cleanup in case gpt improperly filled in some parameters
 
             # Add any tweet metadata
             for key in tweet:

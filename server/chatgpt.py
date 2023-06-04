@@ -52,13 +52,14 @@ class ChatGPT:
     def __init__(self):
         pass
 
-    def prompt_gpt(self, prompt: str) -> dict:
+    def prompt_gpt(self, prompt: str, verbose=False) -> dict:
         """
         Return the result of the prompt
         Follow format of EXAMPLE_RESULT above
         """
-        print("Running following prompt")
-        print(prompt)
+        if verbose:
+            print("Running following prompt")
+            print(prompt)
     
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
