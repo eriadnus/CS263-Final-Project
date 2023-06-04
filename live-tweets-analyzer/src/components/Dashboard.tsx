@@ -110,21 +110,6 @@ export const Dashboard = (props: DashboardProps) => {
                 }).catch((error) => {
                     console.error(error.get());
                 });
-                // const simulatedFetchedData: Array<TweetData> = [];
-                // for (let i = 0; i < 5; i++) {
-                //     const team: Team = Math.random() > 0.5 ? 'Cavaliers' : 'Warriors';
-                //     simulatedFetchedData.push(
-                //         {
-                //             team: team,
-                //             sentiment_score: Math.random() * 10,
-                //             text: `Let's go ${team}`,
-                //             date: new Date(),
-                //             retweets: 0,
-                //             likes: 0
-                //         }
-                //     );
-                // }
-                // setLiveData(simulatedFetchedData);
             } else {
                 const curLiveData: Array<TweetData> = liveData;
                 const curTableData: Array<TweetData> = tableData;
