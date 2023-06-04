@@ -122,8 +122,6 @@ export const Dashboard = (props: DashboardProps) => {
         isRunning ? DELAY_MILLIS : null,
     );
 
-    console.log(currentProbability);
-
     return (
         <Box sx={{ px: 32, py: 12 }}>
             <Grid2 container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
