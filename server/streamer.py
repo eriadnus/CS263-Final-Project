@@ -7,7 +7,7 @@ class Streamer:
     """
     """
     def __init__(self, csv_path):
-        self.df = pd.read_csv(csv_path)
+        self.df = pd.read_csv(csv_path, encoding='Latin-1')
         self.curr_index = 0
         self.tweets= []
         

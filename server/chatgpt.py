@@ -2,6 +2,14 @@
 Wrapper around chatgpt api
 """
 
+import openai
+import json
+import os
+
+API_KEY = os.environ.get("OPENAI_API_KEY")
+
+openai.api_key = API_KEY
+
 EXAMPLE_RESPONSE  = {
     "team": "Cavaliers",
     "sentiment_score": 3,
@@ -14,6 +22,32 @@ EXAMPLE_RESPONSE  = {
     }
 }
 
+EXAMPLE_PROMPT = """
+The task is to take some text and determine whether the text is leaning towards the Warriors or the Cavaliers.
+Next, determine the sentiment towards the team on a scale from 0 to 5.
+Addionally, extract any entities found in the tweet and assign a sentiment score to that entity.
+
+Some additional rules:
+- team can only be either "Warriors" or "Cavaliers"
+
+ONLY output your analysis in the following format, without any additional tokens
+{
+    "team": "Warriors"
+    "sentiment_score": 4,
+    "entities_to_sentiment": 
+    {
+        "Draymond Green":  3
+    }
+}
+
+Here is the text to analyze:
+RT @NBA: Game 3 of the #NBAFinals is underway!
+
+#WhateverItTakes x #DubNation 
+
+: #NBAonABC
+"""
+
 class ChatGPT:
     def __init__(self):
         pass
@@ -25,4 +59,20 @@ class ChatGPT:
         """
         print("Running following prompt")
         print(prompt)
-        return EXAMPLE_RESPONSE.copy()
+    
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Don't provide any explanation for your answers."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        
+        response_content = json.loads(response["choices"][0]["message"]["content"])
+        print("response: ", response["choices"][0]["message"]["content"])
+        return response_content
+
+
+if __name__ == '__main__':
+    gpt = ChatGPT()
+    gpt.prompt_gpt(EXAMPLE_PROMPT)
