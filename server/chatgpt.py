@@ -67,10 +67,13 @@ class ChatGPT:
                 {"role": "user", "content": prompt}
             ]
         )
-        
-        response_content = json.loads(response["choices"][0]["message"]["content"])
-        print("response: ", response["choices"][0]["message"]["content"])
-        return response_content
+        try:
+            response_content = json.loads(response["choices"][0]["message"]["content"])
+            print("response: ", response["choices"][0]["message"]["content"])
+            return response_content
+        except:
+            print("Failed to decode chatgpt response: SKIPPING TWEET")
+            return None
 
 
 if __name__ == '__main__':
