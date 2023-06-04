@@ -6,9 +6,9 @@ import openai
 import json
 import os
 
-API_KEY = os.environ.get("OPENAI_API_KEY")
+# API_KEY = os.environ.get("OPENAI_API_KEY")
 
-openai.api_key = API_KEY
+openai.api_key = "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"
 
 EXAMPLE_RESPONSE  = {
     "team": "Cavaliers",
