@@ -59,19 +59,21 @@ def create_tweet(df_row):
     return tweet
 
 class Processor:
+    MAX_TWEETS_TO_PROCESS = 100 # Just so we accidentally make too many API calls for testing
+
     def __init__(self, streamer: Streamer):
         self.streamer = streamer
         self.chatgpt = ChatGPT()
         self.processed_tweets = []
 
     def begin_processing(self):
-        for i in range(1,10):
-            time.sleep(0.2)
+        for i in range(1,Processor.MAX_TWEETS_TO_PROCESS):
+            # time.sleep(0.2)
             tweet = self.streamer.get_next_tweet()
 
             # Get the sentiment result of the tweet
             result = self.chatgpt.prompt_gpt(construct_prompt(tweet))
-
+            # Add any tweet metadata
             for key in tweet:
                 result[key] = tweet[key]
 
