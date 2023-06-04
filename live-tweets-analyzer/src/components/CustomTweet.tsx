@@ -7,21 +7,16 @@ import {strptime} from "../utils/strptime";
 
 export interface CustomTweetProps {
     team: Team,
-    user: {
-        nickname: string,
-        name: string,
-    }
     text: string,
     date: Date,
     retweets: number,
-    quotedTweets: number,
     likes: number
 }
 export const CustomTweet = (props: CustomTweetProps) => {
     const config = {
         user: {
-            nickname: props.user.nickname,
-            name: props.user.name,
+            nickname: 'Twitter',
+            name: 'Twitter',
             avatar: TeamLogoUrlMapping.get(props.team) || '',
             verified: false,
             locked: false,
@@ -29,11 +24,10 @@ export const CustomTweet = (props: CustomTweetProps) => {
         display: "default",
         text: props.text,
         image: "",
-        // date: "3:32 PM · Feb 14, 1997",
         date: strptime('%I:%M %p · %b %e, %Y', props.date),
         app: "Twitter for iPhone",
         retweets: props.retweets,
-        quotedTweets: props.quotedTweets,
+        quotedTweets: 0,
         likes: props.likes
     };
     return (
