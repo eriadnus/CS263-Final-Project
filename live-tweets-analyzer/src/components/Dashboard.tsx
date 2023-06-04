@@ -49,18 +49,20 @@ const MIN_SCORE = 0;
 const MAX_SCORE = 10;
 const DELAY_MILLIS = 500;
 const MAX_TABLE_LENGTH = 5;
+const NEW_TWEET_WEIGHT = 0.5;
 const scaleLeftTeam = (input: number) => {
     const percentage = (input - MIN_SCORE) / MAX_SCORE
-    return 50 * (1 - percentage);
+    return 50 * (1 + percentage);
 }
 
 const scaleRightTeam = (input: number) => {
     const percentage = (input - MIN_SCORE) / MAX_SCORE;
-    return 50 * (1 + percentage);
+    return 50 * (1 - percentage);
 }
 
 export const Dashboard = (props: DashboardProps) => {
     const [isRunning, setIsRunning] = useState<boolean>(false);
+    const [currentProbability, setCurrentProbability] = useState<number>(0.5);
     const [aggregateScore, setAggregateScore] = useState<number>(50);
     const [scoreCount, setScoreCount] = useState<number>(1);
     const [tweet, setTweet] = useState<CustomTweetProps>(defaultTweet);
@@ -104,9 +106,12 @@ export const Dashboard = (props: DashboardProps) => {
                     retweets: curTweet.retweets,
                     likes: curTweet.likes
                 });
+                const currentWeightedAggregate = aggregateScore / scoreCount;
                 if (curTweet.team == props.leftTeam) {
+                    setCurrentProbability((NEW_TWEET_WEIGHT * scaleLeftTeam(curTweet.sentiment_score) + (1 - NEW_TWEET_WEIGHT) * currentWeightedAggregate) / 100);
                     setAggregateScore(aggregateScore + scaleLeftTeam(curTweet.sentiment_score));
                 } else {
+                    setCurrentProbability((NEW_TWEET_WEIGHT * scaleRightTeam(curTweet.sentiment_score) + (1 - NEW_TWEET_WEIGHT) * currentWeightedAggregate) / 100);
                     setAggregateScore(aggregateScore + scaleRightTeam(curTweet.sentiment_score));
                 }
                 setScoreCount(scoreCount + 1)
@@ -117,6 +122,8 @@ export const Dashboard = (props: DashboardProps) => {
         isRunning ? DELAY_MILLIS : null,
     );
 
+    console.log(currentProbability);
+
     return (
         <Box sx={{ px: 32, py: 12 }}>
             <Grid2 container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -124,6 +131,13 @@ export const Dashboard = (props: DashboardProps) => {
                     <Typography align={'center'} variant={'h2'} component={'h2'}>
                         NBA Tweet Sentiment Analysis
                     </Typography>
+                </Grid2>
+                <Grid2 xs={12} md={12} lg={12}>
+                    <HorizontalBar
+                        leftTeamWinningProbability={currentProbability}
+                        leftTeamColor={TeamHexColorMapping.get(props.leftTeam) || '#000000'}
+                        rightTeamColor={TeamHexColorMapping.get(props.rightTeam) || '#000000'}
+                    />
                 </Grid2>
                 <Grid2 xs={12} md={12} lg={12}>
                     <Box
@@ -153,13 +167,6 @@ export const Dashboard = (props: DashboardProps) => {
                     <Grid2 xs={3} md={3} lg={3}>
                         <TeamLogo teamLogo={props.rightTeam} />
                     </Grid2>
-                </Grid2>
-                <Grid2 xs={12} md={12} lg={12}>
-                    <HorizontalBar
-                        leftTeamWinningProbability={aggregateScore / scoreCount}
-                        leftTeamColor={TeamHexColorMapping.get(props.leftTeam) || '#000000'}
-                        rightTeamColor={TeamHexColorMapping.get(props.rightTeam) || '#000000'}
-                    />
                 </Grid2>
                 <Grid2 xs={12} md={12} lg={12}>
                     {tableData.length != 0 ?

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, LinearProgress} from '@mui/material';
+import {Container, LinearProgress, Typography} from '@mui/material';
 
 export type HexColor = `#${string}`;
 
@@ -11,6 +11,9 @@ interface HorizontalBarProps {
 export const HorizontalBar = (props: HorizontalBarProps) => {
     return (
         <Container maxWidth={'sm'}>
+            <Typography align={'center'} variant={'h6'} component={'h6'}>
+                Who will win?
+            </Typography>
             <LinearProgress
                 variant={'determinate'}
                 sx={{
@@ -20,7 +23,7 @@ export const HorizontalBar = (props: HorizontalBarProps) => {
                         backgroundColor: props.leftTeamColor,
                     }
                 }}
-                value={props.leftTeamWinningProbability}
+                value={props.leftTeamWinningProbability * 100}
             />
         </Container>
     );
