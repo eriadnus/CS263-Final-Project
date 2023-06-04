@@ -1,5 +1,11 @@
-# Notes
-run test.py to generate results that will be pushed onto output.json in the background
+# How to run
 
-# Run server
-python3 server.py
+First run the script that will start streaming in tweets
+
+(Keep this running in the background)
+
+```python3 stream_tweets.py```
+
+Start the server:
+
+```python3 server.py```

@@ -11,7 +11,7 @@ def fetch_sentiment_analysis(not_before: int) -> dict:
     """
     tweets = read_json_file("output.json")
     if not_before:
-        tweets = [tweet for tweet in tweets if tweet['unixtimestamp']  > not_before]
+        tweets = [tweet for tweet in tweets if tweet['tweet_index']  > not_before]
 
     return tweets
 
@@ -20,14 +20,14 @@ def fetch_sentiment_analysis(not_before: int) -> dict:
 @app.route("/analysis")
 def get_sentiment_analysis():
     """
-    Given a unix timestamp notBefore, return all the sentiment-analyzed tweets of the following form.
+    Given an int tweet_index notBefore, return all the sentiment-analyzed tweets of the following form.
     [
        {
            TODO: Albert/Tanmaya decide on the shape of this object
        }
     ]
     """
-    print('Received notBefore unix timestamp: {}'.format(request.args.get('notBefore', type=int)))
+    print('Received notBefore tweet index: {}'.format(request.args.get('notBefore', type=int)))
     response = app.response_class(
         response=json.dumps(fetch_sentiment_analysis(request.args.get('notBefore', type=int))),
         status=200,
