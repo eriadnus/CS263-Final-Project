@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
-import { useInterval } from 'usehooks-ts';
+import {useInterval} from 'usehooks-ts';
 import Grid2 from '@mui/material/Unstable_Grid2';
-import {
-    Box,
-    Button,
-    Typography
-} from '@mui/material';
+import {Box, Button, Typography} from '@mui/material';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import StopCircleIcon from '@mui/icons-material/StopCircle';
 import {TeamLogo} from './TeamLogo';
@@ -15,6 +11,10 @@ import {Team, TeamHexColorMapping} from "../utils/utils";
 import {TweetTable} from "./TweetTable";
 
 export interface TweetData {
+    user: {
+        name: string,
+        nickname: string,
+    }
     team: Team;
     sentiment_score: number;
     text: string;
@@ -24,6 +24,10 @@ export interface TweetData {
 }
 
 const defaultTweet: CustomTweetProps = {
+    user: {
+      name: 'Twitter',
+      nickname: 'Twitter',
+    },
     team: 'Lakers',
     text: 'Let\'s go Lakers!',
     date: new Date(),
@@ -32,6 +36,10 @@ const defaultTweet: CustomTweetProps = {
 };
 
 const defaultTweetData: TweetData = {
+    user: {
+        name: 'Twitter',
+        nickname: 'Twitter',
+    },
     team: 'Lakers',
     sentiment_score: 10,
     text: 'Let\'s go Lakers!',
@@ -73,22 +81,50 @@ export const Dashboard = (props: DashboardProps) => {
     useInterval(
         () => {
             if (liveData.length == 0) {
-                // TODO: Add data fetch
-                const simulatedFetchedData: Array<TweetData> = [];
-                for (let i = 0; i < 5; i++) {
-                    const team: Team = Math.random() > 0.5 ? 'Cavaliers' : 'Warriors';
-                    simulatedFetchedData.push(
-                        {
-                            team: team,
-                            sentiment_score: Math.random() * 10,
-                            text: `Let's go ${team}`,
-                            date: new Date(),
-                            retweets: 0,
-                            likes: 0
-                        }
-                    );
-                }
-                setLiveData(simulatedFetchedData);
+                const analysisFetch = fetch(`http://127.0.0.1:8000/analysis?notBefore=${scoreCount-1}`, {
+                    // mode: 'no-cors',
+                    method: 'GET',
+                    headers: {
+                        "Accept": "application/json"
+                    }
+                });
+                analysisFetch.then((value) => {
+                    return value.json();
+                }).then((json) => {
+                    // @ts-ignore
+                    setLiveData(json.map((tweetData):TweetData => {
+                        return {
+                            user: {
+                                name: tweetData.user.name,
+                                nickname: tweetData.user.nickname,
+                            },
+                            team: tweetData.team,
+                            sentiment_score: tweetData.sentiment_score,
+                            text: tweetData.text,
+                            date: new Date(tweetData.unixtimestamp * 1000),
+                            retweets: tweetData.retweets,
+                            likes: tweetData.likes,
+                        };
+                    }))
+                    return json;
+                }).catch((error) => {
+                    console.error(error.get());
+                });
+                // const simulatedFetchedData: Array<TweetData> = [];
+                // for (let i = 0; i < 5; i++) {
+                //     const team: Team = Math.random() > 0.5 ? 'Cavaliers' : 'Warriors';
+                //     simulatedFetchedData.push(
+                //         {
+                //             team: team,
+                //             sentiment_score: Math.random() * 10,
+                //             text: `Let's go ${team}`,
+                //             date: new Date(),
+                //             retweets: 0,
+                //             likes: 0
+                //         }
+                //     );
+                // }
+                // setLiveData(simulatedFetchedData);
             } else {
                 const curLiveData: Array<TweetData> = liveData;
                 const curTableData: Array<TweetData> = tableData;
@@ -100,6 +136,7 @@ export const Dashboard = (props: DashboardProps) => {
 
                 curTableData.push(curTweet);
                 setTweet({
+                    user: curTweet.user,
                     team: curTweet.team,
                     text: curTweet.text,
                     date: curTweet.date,

@@ -1,9 +1,10 @@
 from flask import Flask, request
+from flask_cors import CORS
 import json
 from utils import read_json_file
 
 app = Flask(__name__)
-
+CORS(app)
 
 def fetch_sentiment_analysis(not_before: int) -> dict:
     """
@@ -36,4 +37,4 @@ def get_sentiment_analysis():
     return response
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8000, debug=True)

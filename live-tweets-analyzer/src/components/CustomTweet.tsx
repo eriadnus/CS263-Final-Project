@@ -6,6 +6,10 @@ import {Team, TeamLogoUrlMapping} from '../utils/utils';
 import {strptime} from "../utils/strptime";
 
 export interface CustomTweetProps {
+    user: {
+        name: string,
+        nickname: string,
+    }
     team: Team,
     text: string,
     date: Date,
@@ -15,8 +19,8 @@ export interface CustomTweetProps {
 export const CustomTweet = (props: CustomTweetProps) => {
     const config = {
         user: {
-            nickname: 'Twitter',
-            name: 'Twitter',
+            nickname: props.user.nickname,
+            name: props.user.name,
             avatar: TeamLogoUrlMapping.get(props.team) || '',
             verified: false,
             locked: false,
