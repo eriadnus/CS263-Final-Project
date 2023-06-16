@@ -1,0 +1,1674 @@
+[
+    {
+        "date": "Thu Jun 07 01:14:30 +0000 2018",
+        "entities_to_sentiment": {
+            "J.R": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "J.R already worried about the clock  #NBAFinals",
+        "tweet_index": 1,
+        "unixtimestamp": 1528334070,
+        "user": {
+            "name": "Safari",
+            "nickname": "boy_Genuis1"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:15:20 +0000 2018",
+        "entities_to_sentiment": {
+            "NBAFinals": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Cavs starting on a 12-4, run, shooting 71.4% from the floor, 2-of-2 from three #NBAFinals",
+        "tweet_index": 2,
+        "unixtimestamp": 1528334120,
+        "user": {
+            "name": "Ryan Gorcey",
+            "nickname": "RyanGorcey"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:15:42 +0000 2018",
+        "entities_to_sentiment": {
+            "Kevin Love": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "NBA: Kevin Love connects from 3 to start the action!\r\n\r\n#WhateverItTakes #NBAFinals \r\n\r\n: #NBAonABC https://t.co/vWF1lv3h42",
+        "tweet_index": 4,
+        "unixtimestamp": 1528334142,
+        "user": {
+            "name": "Deane Blauvelt",
+            "nickname": "DeaneBlauvelt"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:15:49 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 5
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 5,
+        "team": "Cavaliers",
+        "text": "LeBron passes to himself and dunks it! Brilliant! #NBAFinals #WhateverItTakes",
+        "tweet_index": 5,
+        "unixtimestamp": 1528334149,
+        "user": {
+            "name": "Matthew Minas",
+            "nickname": "matthewminas"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:16:36 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "LEBRON SHOWED UP TO PLAY TODAY!! #NBAFinals",
+        "tweet_index": 6,
+        "unixtimestamp": 1528334196,
+        "user": {
+            "name": "Beatz 4 Artists",
+            "nickname": "Beatz4Artists_"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:16:42 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "Role players play better at home. #NBAFinals",
+        "tweet_index": 7,
+        "unixtimestamp": 1528334202,
+        "user": {
+            "name": "Rylan Stiles",
+            "nickname": "Rylan_Stiles"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:00 +0000 2018",
+        "entities_to_sentiment": {
+            "KingJames": 4,
+            "cavs": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "@KingJames WITH THE SELF PASS ALLY OOP!!!! GET OUT THE WAY !!!! @cavs #nbafinals https://t.co/SNwwQ81c46",
+        "tweet_index": 9,
+        "unixtimestamp": 1528334220,
+        "user": {
+            "name": "Ray Dee",
+            "nickname": "B1G_Dee"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:03 +0000 2018",
+        "entities_to_sentiment": {
+            "Lebron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Lebron out there like he's competing in the dunk contest  #NBAFinals",
+        "tweet_index": 10,
+        "unixtimestamp": 1528334223,
+        "user": {
+            "name": "Jason Schmitz",
+            "nickname": "CoachJSchmitz"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:03 +0000 2018",
+        "entities_to_sentiment": {
+            "James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @jfahmy: Love this note on @KingJames #NBAFinals https://t.co/9DCPZC4nse",
+        "tweet_index": 11,
+        "unixtimestamp": 1528334223,
+        "user": {
+            "name": "AsktheGodfather",
+            "nickname": "AsktheGodfather"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:06 +0000 2018",
+        "entities_to_sentiment": {
+            "KingJames": 4,
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "Omg @KingJames what a play, off the backboard to himself!! #NBAFinals #Cavs #LeBron",
+        "tweet_index": 12,
+        "unixtimestamp": 1528334226,
+        "user": {
+            "name": "Micah Nikefreak23",
+            "nickname": "nikefreak23"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:28 +0000 2018",
+        "entities_to_sentiment": {
+            "DubNation": 5,
+            "RepBarbaraLee": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 5,
+        "team": "Warriors",
+        "text": "RT @RepBarbaraLee: It's game time #DubNation! Let's cheer our warriors to victory - lock in! #NBAFinals https://t.co/FP9dQjngCz",
+        "tweet_index": 14,
+        "unixtimestamp": 1528334248,
+        "user": {
+            "name": "Congressional Tweets",
+            "nickname": "CongressRTBot"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:31 +0000 2018",
+        "entities_to_sentiment": {
+            "George Hill": 2,
+            "J.R. Smith": 1,
+            "Kevin Love": 3,
+            "LeBron James": 4,
+            "Tristan Thompson": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @cavs: #NBAFinals GAME 3 STARTERS:\r\n\r\n@George_Hill3\r\n@TheRealJRSmith\r\n@KingJames\r\n@kevinlove\r\n@RealTristan13\r\n\r\nLET'S GET IT. #WhateverItTakes h.",
+        "tweet_index": 15,
+        "unixtimestamp": 1528334251,
+        "user": {
+            "name": "Jaypee",
+            "nickname": "JayPeeOctavo"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:39 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Did y'all see that dunk?? Lebron is mad tonight ! #NBAFinals",
+        "tweet_index": 16,
+        "unixtimestamp": 1528334259,
+        "user": {
+            "name": "Solange",
+            "nickname": "abieyuwaxo"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:17:57 +0000 2018",
+        "entities_to_sentiment": {
+            "Lebron James": 5
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "Lebron James is the GOAT. That is all . #NBAFinals",
+        "tweet_index": 17,
+        "unixtimestamp": 1528334277,
+        "user": {
+            "name": "Jose Arredondo",
+            "nickname": "sportsguyjose"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:03 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 19,
+        "unixtimestamp": 1528334283,
+        "user": {
+            "name": "Sammy P",
+            "nickname": "PawlakSam"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:11 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 20,
+        "unixtimestamp": 1528334291,
+        "user": {
+            "name": "Luis Torres",
+            "nickname": "LTOnDaTrack"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:20 +0000 2018",
+        "entities_to_sentiment": {
+            "Cavs": 4,
+            "Cleveland": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Timeout. 14-4 in favor of the home team Cavs. Good start for Cleveland. #NBAFinals",
+        "tweet_index": 21,
+        "unixtimestamp": 1528334300,
+        "user": {
+            "name": "E Bryan Fajarito",
+            "nickname": "ellibryan"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:21 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 22,
+        "unixtimestamp": 1528334301,
+        "user": {
+            "name": "PaKiTo",
+            "nickname": "Pakiito_RM"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:23 +0000 2018",
+        "entities_to_sentiment": {
+            "HE": 1,
+            "NBA": 1,
+            "OH": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 23,
+        "unixtimestamp": 1528334303,
+        "user": {
+            "name": "Christian Chrysakis\u0099",
+            "nickname": "csakis99"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:24 +0000 2018",
+        "entities_to_sentiment": {
+            "KD": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "KD point shaving?  #NBAFinals",
+        "tweet_index": 24,
+        "unixtimestamp": 1528334304,
+        "user": {
+            "name": "Marquis",
+            "nickname": "iTALK_uSTFU"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:35 +0000 2018",
+        "entities_to_sentiment": {
+            "King James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "Go King James!   #NBAFinals",
+        "tweet_index": 26,
+        "unixtimestamp": 1528334315,
+        "user": {
+            "name": "caco",
+            "nickname": "Lima_zx"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:41 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 27,
+        "unixtimestamp": 1528334321,
+        "user": {
+            "name": "choose wisely",
+            "nickname": "owldisciple"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:45 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "RT @hashBasketball: LEBRON WITH THE OFF THE GLASS LOB TO HIMSELF!\r\n\r\n#DubNation vs #WhateverItTakes\r\n\r\n#NBAFinals https://t.co/aojb4SKBRQ",
+        "tweet_index": 28,
+        "unixtimestamp": 1528334325,
+        "user": {
+            "name": "Hans",
+            "nickname": "Hanzinho"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:46 +0000 2018",
+        "entities_to_sentiment": {
+            "KingJames": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 0,
+        "team": "Cavaliers",
+        "text": "RT @cavs: With another 40-point outing, @KingJames will hold the NBA record for most 40-point performances in a single postseason.\r\n\r\n#Whatev.",
+        "tweet_index": 29,
+        "unixtimestamp": 1528334326,
+        "user": {
+            "name": "LuisGabriel Saavedra",
+            "nickname": "SaavedraD16"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:48 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 30,
+        "unixtimestamp": 1528334328,
+        "user": {
+            "name": "Brandon",
+            "nickname": "B_Kratz69"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:18:59 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 31,
+        "unixtimestamp": 1528334339,
+        "user": {
+            "name": "Adam Roney",
+            "nickname": "Ronezzz"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:03 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 32,
+        "unixtimestamp": 1528334343,
+        "user": {
+            "name": "NSP Sports",
+            "nickname": "nspsportspod"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:12 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 33,
+        "unixtimestamp": 1528334352,
+        "user": {
+            "name": "Adam",
+            "nickname": "A_Try_Hard_M8"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:13 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 34,
+        "unixtimestamp": 1528334353,
+        "user": {
+            "name": "Grizzly Adams",
+            "nickname": "ZakkyJohns"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:36 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 36,
+        "unixtimestamp": 1528334376,
+        "user": {
+            "name": "Henry",
+            "nickname": "Henry97830365"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:47 +0000 2018",
+        "entities_to_sentiment": {
+            "Kevin Durant": 2,
+            "Klay Thompson": 3,
+            "Steph Curry": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Warriors",
+        "text": "Game time baby! See ya! #NBAFinals @warriors #KlayThompson #StephCurry #KevinDurant",
+        "tweet_index": 38,
+        "unixtimestamp": 1528334387,
+        "user": {
+            "name": "Santos",
+            "nickname": "Sean_Toss18"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:19:50 +0000 2018",
+        "entities_to_sentiment": {
+            "Cavs": 2,
+            "DubNation": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Warriors",
+        "text": "Looks like this going to be a good one! #Warriors #NBAFinals #DubNation #NBA #NBAonABC #Cavs",
+        "tweet_index": 40,
+        "unixtimestamp": 1528334390,
+        "user": {
+            "name": "joey",
+            "nickname": "AltruisticBS"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:09 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "RT @NBAonTNT: OH MY, LEBRON JAMES! \r\n\r\n#NBAFinals \r\n\r\nhttps://t.co/ZoeHxiMFee",
+        "tweet_index": 42,
+        "unixtimestamp": 1528334409,
+        "user": {
+            "name": "ndour-blue",
+            "nickname": "babau86"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:10 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 43,
+        "unixtimestamp": 1528334410,
+        "user": {
+            "name": "Ali Saleh",
+            "nickname": "Alisaleh_77"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:18 +0000 2018",
+        "entities_to_sentiment": {
+            "Cleveland": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "RT @warriors: Tonight's Warriors starters:\r\n\r\n #NBAFinals Game 3\r\n #NBAonABC \r\n @957thegame\r\n Cleveland, OH https://t.co/wCC8lseNwM",
+        "tweet_index": 44,
+        "unixtimestamp": 1528334418,
+        "user": {
+            "name": "Richard Slate",
+            "nickname": "RichSlate"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:24 +0000 2018",
+        "entities_to_sentiment": {
+            "Kevin Love": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Kevin Love might drop 40 #NBAFinals",
+        "tweet_index": 45,
+        "unixtimestamp": 1528334424,
+        "user": {
+            "name": "@TheEvilHippie",
+            "nickname": "TheEvilHippie"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:27 +0000 2018",
+        "entities_to_sentiment": {
+            "@NBA": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 46,
+        "unixtimestamp": 1528334427,
+        "user": {
+            "name": "Jo\u00e3o Palomo",
+            "nickname": "JoaoPallas22"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:21:03 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 47,
+        "unixtimestamp": 1528334463,
+        "user": {
+            "name": "Tino",
+            "nickname": "TKamung"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:31 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 48,
+        "unixtimestamp": 1528334431,
+        "user": {
+            "name": "Foster Brown",
+            "nickname": "FosterBrown9"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:20:41 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 49,
+        "unixtimestamp": 1528334441,
+        "user": {
+            "name": "yigu james",
+            "nickname": "JamesThe10000th"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:21:02 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 51,
+        "unixtimestamp": 1528334462,
+        "user": {
+            "name": "ELSI",
+            "nickname": "MrElsi"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:21:05 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 52,
+        "unixtimestamp": 1528334465,
+        "user": {
+            "name": "kendrick",
+            "nickname": "kendrickdddtx"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:21:23 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBAonTNT: OH MY, LEBRON JAMES! \r\n\r\n#NBAFinals \r\n\r\nhttps://t.co/ZoeHxiMFee",
+        "tweet_index": 53,
+        "unixtimestamp": 1528334483,
+        "user": {
+            "name": "raven",
+            "nickname": "eversixx_"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:21:57 +0000 2018",
+        "entities_to_sentiment": {
+            "Dwight Howard": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "RT @AnthonySkatz: Maybe the worst part of the #NBAFinals is seeing Dwight Howard failing to be funny every other commercial break.",
+        "tweet_index": 54,
+        "unixtimestamp": 1528334517,
+        "user": {
+            "name": "SidecastrPicks",
+            "nickname": "SidecastrPicks"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:22:10 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 55,
+        "unixtimestamp": 1528334530,
+        "user": {
+            "name": "Michael Sollosi",
+            "nickname": "therealmonsoon"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:22:43 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 57,
+        "unixtimestamp": 1528334563,
+        "user": {
+            "name": "a.",
+            "nickname": "allxnoir"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:22:44 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 58,
+        "unixtimestamp": 1528334564,
+        "user": {
+            "name": "Berkay Sarcan",
+            "nickname": "BerkaySarcan"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:22:47 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 59,
+        "unixtimestamp": 1528334567,
+        "user": {
+            "name": "AR-15",
+            "nickname": "AustinRoan"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:23:35 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @MatthewBerryTMR: Come on, LeBron. Give back all the Infinity Stones, please. https://t.co/SPlseuMOZY",
+        "tweet_index": 60,
+        "unixtimestamp": 1528334615,
+        "user": {
+            "name": "Josh O'Daniel",
+            "nickname": "JoshODeezy"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:23:36 +0000 2018",
+        "entities_to_sentiment": {
+            "Cavs": 4,
+            "Cleveland": 3,
+            "RallyTogether": 3,
+            "Tribe": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Woo! Go Tribe &amp; Cavs! :) #Cleveland #WhateverItTakes #RallyTogether https://t.co/MpCdp4yxA4",
+        "tweet_index": 61,
+        "unixtimestamp": 1528334616,
+        "user": {
+            "name": "Rachel Barrett",
+            "nickname": "rmcbuckeye84"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:23:46 +0000 2018",
+        "entities_to_sentiment": {
+            "Cleveland": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "Yeah!!! Cleveland brought their own refs tonight! Let's go  #NBAFinals",
+        "tweet_index": 63,
+        "unixtimestamp": 1528334626,
+        "user": {
+            "name": "Darell Houseton",
+            "nickname": "dhouseton"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:23:47 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 64,
+        "unixtimestamp": 1528334627,
+        "user": {
+            "name": "Bryce McGill",
+            "nickname": "bryce_m9"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:23:50 +0000 2018",
+        "entities_to_sentiment": {
+            "Steph Curry": 3,
+            "Steve Kerr": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "Steph Curry picks up his second personal foul in the first quarter that will be a factor how long Steve Kerr will k. https://t.co/HASa0p8MBD",
+        "tweet_index": 65,
+        "unixtimestamp": 1528334630,
+        "user": {
+            "name": "Sports-Hop",
+            "nickname": "sportshopmedia"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:03 +0000 2018",
+        "entities_to_sentiment": {
+            "Andre": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Warriors",
+        "text": "RT @warriors:  @andre makes his #NBAFinals debut! https://t.co/OaTGi4Mxzd",
+        "tweet_index": 66,
+        "unixtimestamp": 1528334643,
+        "user": {
+            "name": "Vince Moreschini",
+            "nickname": "timbe2"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:09 +0000 2018",
+        "entities_to_sentiment": {
+            "George Hill": 2,
+            "J.R. Smith": 1,
+            "Kevin Love": 3,
+            "LeBron James": 4,
+            "Tristan Thompson": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @cavs: #NBAFinals GAME 3 STARTERS:\r\n\r\n@George_Hill3\r\n@TheRealJRSmith\r\n@KingJames\r\n@kevinlove\r\n@RealTristan13\r\n\r\nLET'S GET IT. #WhateverItTakes h.",
+        "tweet_index": 67,
+        "unixtimestamp": 1528334649,
+        "user": {
+            "name": "SDaviid Vidal",
+            "nickname": "SDaviid__93"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:19 +0000 2018",
+        "entities_to_sentiment": {
+            "fireworks": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @cavs: CLE. Put it on for your city.\r\n\r\nAll 20,562 will be dressed in black for #NBAFinals Game 3, thanks to @fireworks. \r\n\r\n#WhateverItTake.",
+        "tweet_index": 68,
+        "unixtimestamp": 1528334659,
+        "user": {
+            "name": "SafiMaasai",
+            "nickname": "SafiMaasai"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:45 +0000 2018",
+        "entities_to_sentiment": {
+            "Cleveland fans": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 0,
+        "team": "Cavaliers",
+        "text": "Cleveland fans are cancer. #NBAFinals",
+        "tweet_index": 69,
+        "unixtimestamp": 1528334685,
+        "user": {
+            "name": "Hamptons 5",
+            "nickname": "joshuaagron"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:52 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "RT @NBAonTNT: OH MY, LEBRON JAMES! \r\n\r\n#NBAFinals \r\n\r\nhttps://t.co/ZoeHxiMFee",
+        "tweet_index": 70,
+        "unixtimestamp": 1528334692,
+        "user": {
+            "name": "Variansa Suryanto",
+            "nickname": "variansa46"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:24:54 +0000 2018",
+        "entities_to_sentiment": {
+            "Steph": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "That wasn't a foul on Steph tho. Wtf was that? #WhateverItTakes #NBAFinals",
+        "tweet_index": 71,
+        "unixtimestamp": 1528334694,
+        "user": {
+            "name": "OB Wright @ EA Play",
+            "nickname": "TheActivistOBW"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:25:39 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 73,
+        "unixtimestamp": 1528334739,
+        "user": {
+            "name": "SAUD ALQAHTANI",
+            "nickname": "saud_srs"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:26:28 +0000 2018",
+        "entities_to_sentiment": {
+            "Andre": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Warriors",
+        "text": "RT @warriors:  @andre makes his #NBAFinals debut! https://t.co/pyU7UoC0K4",
+        "tweet_index": 75,
+        "unixtimestamp": 1528334788,
+        "user": {
+            "name": "Marcos Gallardo",
+            "nickname": "MarkosG_98"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:26:50 +0000 2018",
+        "entities_to_sentiment": {
+            "Draymond Green": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "Draymond 'bout to lose his mind\r\n\r\n#NBAFinals",
+        "tweet_index": 76,
+        "unixtimestamp": 1528334810,
+        "user": {
+            "name": "Ratty",
+            "nickname": "HeyRatty"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:26:53 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 77,
+        "unixtimestamp": 1528334813,
+        "user": {
+            "name": "Moura",
+            "nickname": "mouracam013"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:26:55 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Lol you can not assist yourself, sure you can he just did!!! #Lebron #NBAFinals ",
+        "tweet_index": 78,
+        "unixtimestamp": 1528334815,
+        "user": {
+            "name": "Art Vandelay",
+            "nickname": "GreenMonsterah"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:27:04 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "RT @TrueBulllfr: This is the Visual representation of \"Forget it, I'll do it myself\"  #NBAFinals \r\n\r\n https://t.co/RTISBo2m2v",
+        "tweet_index": 79,
+        "unixtimestamp": 1528334824,
+        "user": {
+            "name": "Jo-Ann Figueroa",
+            "nickname": "__Jojolapin"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:27:05 +0000 2018",
+        "entities_to_sentiment": {
+            "LBJ": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "LBJ not passing to anyone tonight I see. https://t.co/nKw6YNmQYT",
+        "tweet_index": 80,
+        "unixtimestamp": 1528334825,
+        "user": {
+            "name": "JOSH C.",
+            "nickname": "Josh_calbert"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:27:14 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 81,
+        "unixtimestamp": 1528334834,
+        "user": {
+            "name": "Marcelo",
+            "nickname": "Marcelo45551689"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:27:51 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 82,
+        "unixtimestamp": 1528334871,
+        "user": {
+            "name": "Meynard.",
+            "nickname": "nardoooww"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:28:09 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 0,
+        "team": "Cavaliers",
+        "text": "RT @DustinLong1984: We all know the @cavs are gonna win this game. #rigged #NBAPlayoffs #NBAFinals",
+        "tweet_index": 84,
+        "unixtimestamp": 1528334889,
+        "user": {
+            "name": "Ronn Markel Jarvis",
+            "nickname": "RonnJarvis"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:28:11 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA: Game 3. #NBAFinals https://t.co/MyRKVEtitT",
+        "tweet_index": 85,
+        "unixtimestamp": 1528334891,
+        "user": {
+            "name": "Alana H",
+            "nickname": "LibraAlana"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:28:18 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 86,
+        "unixtimestamp": 1528334898,
+        "user": {
+            "name": "FatiihGS",
+            "nickname": "FatiihDE_"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:28:37 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @GIPHYSports: That LeBron dunk!!!!! #NBAFinals https://t.co/jo4DMZes8u",
+        "tweet_index": 88,
+        "unixtimestamp": 1528334917,
+        "user": {
+            "name": "Adrian Lucero",
+            "nickname": "adrianjl23"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:29:00 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 89,
+        "unixtimestamp": 1528334940,
+        "user": {
+            "name": "Todd Adler",
+            "nickname": "coachadler"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:29:45 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 91,
+        "unixtimestamp": 1528334985,
+        "user": {
+            "name": "Meliodas",
+            "nickname": "Eltoras_"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:29:48 +0000 2018",
+        "entities_to_sentiment": {
+            "Cavaliers": 2,
+            "NBA": 3,
+            "Warriors": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 92,
+        "unixtimestamp": 1528334988,
+        "user": {
+            "name": "Matt M.",
+            "nickname": "_matt36"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:29:50 +0000 2018",
+        "entities_to_sentiment": {
+            "Lebron": 0,
+            "Miami": 3,
+            "heatculture": 2,
+            "heatnation": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "I can't wait for the #NBAFinals is over Lebron One way ticket back to Miami will be waiting with open arms #heatnation #heatculture",
+        "tweet_index": 93,
+        "unixtimestamp": 1528334990,
+        "user": {
+            "name": "noel molina",
+            "nickname": "molinanoel18"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:29:56 +0000 2018",
+        "entities_to_sentiment": {
+            "NBAFinals": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "RT @ChaseGrizzly: retweet if you know this is the real motive behind the #NBAFinals officiating https://t.co/76gvaEL5XH",
+        "tweet_index": 94,
+        "unixtimestamp": 1528334996,
+        "user": {
+            "name": "steef",
+            "nickname": "StephenStayGold"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:03 +0000 2018",
+        "entities_to_sentiment": {
+            "KingJames": 3,
+            "Lindor12BC": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @BR_MLB: .@Lindor12BC rocking the @KingJames jersey at Game 3 of the #NBAFinals https://t.co/FLpPv7lor4",
+        "tweet_index": 95,
+        "unixtimestamp": 1528335003,
+        "user": {
+            "name": "Seth Kinel",
+            "nickname": "SethKinel12"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:05 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron James": 5
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @ringer: Passing it off the backboard to alley-oop it yourself ... in the #NBAFinals.\r\n\r\nLeBron James. Good. GRIEF. https://t.co/HBxeCRlCGH",
+        "tweet_index": 96,
+        "unixtimestamp": 1528335005,
+        "user": {
+            "name": "Lamarx Odom",
+            "nickname": "IamJackieLegs"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:08 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "Let's go Cleveland #NBAFinals",
+        "tweet_index": 97,
+        "unixtimestamp": 1528335008,
+        "user": {
+            "name": "NorthMiamiWestSide",
+            "nickname": "BABYMAXXX"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:19 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "RT @TheSportsJunky1: I see you \"Smokey\"! #NBAFinals https://t.co/gyYptOHOJx",
+        "tweet_index": 98,
+        "unixtimestamp": 1528335019,
+        "user": {
+            "name": "Fidel",
+            "nickname": "kuruptfc81"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:44 +0000 2018",
+        "entities_to_sentiment": {
+            "Lebron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "Lebron TO LEBRON  #NBAFinals #WhateverItTakes https://t.co/UALhHqlmKi",
+        "tweet_index": 100,
+        "unixtimestamp": 1528335044,
+        "user": {
+            "name": "Sebastian Pereira",
+            "nickname": "sebastiansito92"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:30:48 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 5
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 5,
+        "team": "Cavaliers",
+        "text": "RT @dj_christina21: Go CAVS \r\n#WhateverItTakes \r\n#GoLeBron\r\n#NBAFinals https://t.co/9ycdfM22bV",
+        "tweet_index": 101,
+        "unixtimestamp": 1528335048,
+        "user": {
+            "name": "e n i t s i r K",
+            "nickname": "krstnegvarra"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:08 +0000 2018",
+        "entities_to_sentiment": {
+            "NBA": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 103,
+        "unixtimestamp": 1528335068,
+        "user": {
+            "name": "Buraksizlikozlemi",
+            "nickname": "burakszlkozlemi"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:22 +0000 2018",
+        "entities_to_sentiment": {
+            "Draymond Green": 0
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Warriors",
+        "text": "Draymond Green es bastante payaso #dormiresdecobardes #LasFinalesDeTodaLaVida #NBAFinals",
+        "tweet_index": 104,
+        "unixtimestamp": 1528335082,
+        "user": {
+            "name": "m",
+            "nickname": "elmirontv"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:24 +0000 2018",
+        "entities_to_sentiment": {
+            "Draymond Green": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "Draymond Green can't see his forehead... #NBAFinals",
+        "tweet_index": 105,
+        "unixtimestamp": 1528335084,
+        "user": {
+            "name": "Chris Hilling",
+            "nickname": "cityonahilling"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:27 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @HotNewHipHop: SHEEEEEESH LEBRON\r\n\r\nGame 3 #NBAFinals\r\nhttps://t.co/9VKJZiT2G2",
+        "tweet_index": 106,
+        "unixtimestamp": 1528335087,
+        "user": {
+            "name": "Bret Cooper",
+            "nickname": "HOVbret"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:29 +0000 2018",
+        "entities_to_sentiment": {
+            "NBAonTNT": 2,
+            "OfficialNBARefs": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "@NBAonTNT @OfficialNBARefs yall cheating or na ??\r\n\r\n: #NBAFinals #nba #NBAonABC #ijchtc \r\n: #WhateverItTakes x. https://t.co/znRZ6wh9ut",
+        "tweet_index": 107,
+        "unixtimestamp": 1528335089,
+        "user": {
+            "name": "#ijchtc",
+            "nickname": "chRAPpinFOOL"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:31:41 +0000 2018",
+        "entities_to_sentiment": {
+            "Draymond Green": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "RT @RuiterWrongFAN: Draymond Green drops a \"F BS\" as he screams walking back to mid court after picking up 2nd foul but officials decline.",
+        "tweet_index": 108,
+        "unixtimestamp": 1528335101,
+        "user": {
+            "name": "serena .",
+            "nickname": "YunginRena"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:32:08 +0000 2018",
+        "entities_to_sentiment": {
+            "Cavs": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Warriors",
+        "text": "RT @NBA2K: The Warriors are up 2-0 heading into Game 3. Can the Cavs bounce back tonight?\r\n\r\n#WhatEverItTakes x #DubNation #NBAFinals https:/.",
+        "tweet_index": 110,
+        "unixtimestamp": 1528335128,
+        "user": {
+            "name": "Most Talented Gamer",
+            "nickname": "OmarWheelin"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:32:28 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA:  OH YES HE DID! \r\n\r\n#WhateverItTakes #NBAFinals https://t.co/Axun0gOmok",
+        "tweet_index": 111,
+        "unixtimestamp": 1528335148,
+        "user": {
+            "name": "Kenny",
+            "nickname": "iamORION6"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:32:39 +0000 2018",
+        "entities_to_sentiment": {
+            "Kevin Love": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @ringer: Kevin Love is all of us \r\n#NBAFinals https://t.co/NNGxvSk75y",
+        "tweet_index": 112,
+        "unixtimestamp": 1528335159,
+        "user": {
+            "name": "Matthew Golda",
+            "nickname": "mgolda1216"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:32:58 +0000 2018",
+        "entities_to_sentiment": {
+            "LeBron": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 4,
+        "team": "Cavaliers",
+        "text": "RT @HotNewHipHop: SHEEEEEESH LEBRON\r\n\r\nGame 3 #NBAFinals\r\nhttps://t.co/9VKJZiT2G2",
+        "tweet_index": 113,
+        "unixtimestamp": 1528335178,
+        "user": {
+            "name": "William",
+            "nickname": "WRCVI6"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:33:00 +0000 2018",
+        "entities_to_sentiment": {
+            "Hood": 3
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "Hood is from Duke I got faith in him but I'm nervous he just gotta come in and play get to the rim #NBAFinals #WhateverItTakes",
+        "tweet_index": 114,
+        "unixtimestamp": 1528335180,
+        "user": {
+            "name": "Princ3 Q\u0099",
+            "nickname": "Princ3Q"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:33:04 +0000 2018",
+        "entities_to_sentiment": {
+            "Draymond Green": 1
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "How is Draymond not already thrown out of this game!? Just because he does it all the time doesn't mean he should h. https://t.co/32ZDVHCfJO",
+        "tweet_index": 115,
+        "unixtimestamp": 1528335184,
+        "user": {
+            "name": "Matt Hickey",
+            "nickname": "mhickey23"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:33:57 +0000 2018",
+        "entities_to_sentiment": {
+            "@KingJames": 4
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 3,
+        "team": "Cavaliers",
+        "text": "RT @NBA: Congrats to @KingJames of the @cavs for moving up to 5th on the #NBAFinals REBOUNDS list! \r\n\r\n#ThisIsWhyWePlay #WhateverItTakes http.",
+        "tweet_index": 116,
+        "unixtimestamp": 1528335237,
+        "user": {
+            "name": "Amanda Morgan",
+            "nickname": "amandamorgan98"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:34:29 +0000 2018",
+        "entities_to_sentiment": {
+            "Steph Curry": 5
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 5,
+        "team": "Warriors",
+        "text": "RT @NBA: Steph Curry's buzzer-beater... as heard around the world! \r\n\r\n#NBAFinals #DubNation https://t.co/oLp2luxFvB",
+        "tweet_index": 117,
+        "unixtimestamp": 1528335269,
+        "user": {
+            "name": "Ole Hickey Ham Mike",
+            "nickname": "BigMike2step"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:35:04 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 1,
+        "team": "Cavaliers",
+        "text": "RT @BleacherReport: Shook.\r\n\r\n#NBAFinals https://t.co/9JVTJcPEl0",
+        "tweet_index": 118,
+        "unixtimestamp": 1528335304,
+        "user": {
+            "name": "SportsGossip.com",
+            "nickname": "sportsgossip"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:35:20 +0000 2018",
+        "entities_to_sentiment": {
+            "NBAFinals": 2
+        },
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Cavaliers",
+        "text": "RT @BleacherReport: Shook.\r\n\r\n#NBAFinals https://t.co/9JVTJcPEl0",
+        "tweet_index": 119,
+        "unixtimestamp": 1528335320,
+        "user": {
+            "name": "Jimmy",
+            "nickname": "Packers_MUBB"
+        }
+    },
+    {
+        "date": "Thu Jun 07 01:35:20 +0000 2018",
+        "entities_to_sentiment": {},
+        "likes": 0,
+        "retweets": 0,
+        "sentiment_score": 2,
+        "team": "Warriors",
+        "text": "RT @BleacherReport: Shook.\r\n\r\n#NBAFinals https://t.co/9JVTJcPEl0",
+        "tweet_index": 120,
+        "unixtimestamp": 1528335320,
+        "user": {
+            "name": "Halle Jones",
+            "nickname": "HaIIeTheGreat"
+        }
+    }
+]

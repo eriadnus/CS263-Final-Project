@@ -7,9 +7,14 @@ class Streamer:
     """
     """
     def __init__(self, csv_path):
-        self.df = pd.read_csv(csv_path, encoding='Latin-1')
+        self.df = self.get_df(csv_path)
         self.curr_index = 0
         self.tweets= []
+
+    def get_df(self, csv_path):
+        df = pd.read_csv(csv_path, encoding='Latin-1')
+        df = df[(df['lang'] == 'en') & (df['name'].str.contains("<")== False) & (df['text'].str.contains("<")== False) & (df['text'].str.contains("RT")== False)].sample(200, random_state=0).sort_index()
+        return df
         
     def get_next_tweet(self):
         tweet_row = self.df.iloc[self.curr_index]
@@ -88,7 +93,9 @@ class Processor:
         self.max_tweets_to_process = max_tweets_to_process
 
     def begin_processing(self):
-        for i in range(0,self.max_tweets_to_process):
+        counter = 0
+
+        while counter < self.max_tweets_to_process:
             # time.sleep(0.2)
             tweet = self.streamer.get_next_tweet()
 
@@ -100,7 +107,7 @@ class Processor:
             except:
                 # Some error, either gpt returned None or we have
                 # missing keys
-                print("Failed to validate tweet no", i)
+                print("Failed to validate tweet no", counter)
                 continue
 
             # Add any tweet metadata
@@ -110,6 +117,8 @@ class Processor:
             self.processed_tweets.append(result)
 
             save_to_json(self.processed_tweets, "output.json")
+
+            counter += 1
 
 
             
